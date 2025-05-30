@@ -497,7 +497,7 @@ async function datos(criterio) {
     }
 }
 
-datos("Perea Morales,René").catch((error) => console.error(error));
+datos("Perea Morales, René").catch((error) => console.error(error));
 
 document.querySelectorAll("select")[0].addEventListener("change", (event) => {
     tabla.innerHTML = " ";
@@ -508,7 +508,7 @@ document.querySelectorAll("select")[0].addEventListener("change", (event) => {
     var notas = [];
     var notasPrevias = [];
     datos(event.target.value).catch((error) => console.error(error));
-    if(event.target.value == "Cortez Orellana,Felipe"){
+    if(event.target.value == "Cortez Orellana, Felipe"){
         document.querySelector("#primera").classList.add("esconde");
         document.querySelector("#segunda").classList.remove("esconde")
     } else {
