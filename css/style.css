@@ -265,3 +265,17 @@ div.otro{
     }
 }
 
+
+div.info{
+    background:yellow;
+}
+
+div.info div.medio{
+    width:50%;
+    float:left;
+}
+
+div.info div.completo{
+    with:100%;
+    clear:both;
+}
