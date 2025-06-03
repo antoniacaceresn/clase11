@@ -279,3 +279,7 @@ div.info div.completo{
     with:100%;
     clear:both;
 }
+
+div.completo img, div.medio img{
+    max-width: 100%
+}
